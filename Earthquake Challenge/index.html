@@ -4,38 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaflet-Basic-Map</title>
-
+    <title>Earthquakes in the last 7 days</title>
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" 
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
     crossorigin=""/>
-    
-    <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/CSS/style.css">
-
     <!-- d3 JavaScript -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson"></script>
-    <script src="'https://github.com/fraxen/tectonicplates/blob/master/GeoJSON/PB2002_boundaries.json"></script>
-    
-
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 <body>
     <!-- The div that holds our map -->
     <div id="mapid"></div>
 
-    <!-- Leaflet JavaScript -->
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
-
     <!-- API key -->
     <script type="text/javascript" src="static/js/config.js"></script>
-    
     <!-- Our JavaScript -->
-    <!-- <script type="text/javascript" src="static/js/cities.js"></script> -->
     <script type="text/javascript" src="static/js/Challenge_logic.js"></script>
-
 </body>
 </html>
